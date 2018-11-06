@@ -1,56 +1,27 @@
-<template>
-  <div class="pvui-transfer-panel">
-    <div class="pvui-transfer-panel-title">
-        <slot name="title">{{title}}</slot>
-    </div>
-    <div class="pvui-transfer-panel-main">
-      <div class="pvui-transfer-panel-header">
-        <el-input
-          class="pvui-transfer-panel-search"
-          :placeholder="placeholder"
-          size="small"
-          clearable>
-        </el-input>
-      </div>
-      <div class="pvui-transfer-panel-body">
-      
-      </div>
-    </div>
-  </div>
-</template>
-<script>
-export default {
-  name: "TransferPanel",
-  props: {
-    title: String,
-    placeholder: String
-  }
-};
-</script>
-<style lang="less">
-.pvui-transfer-panel {
-  display: flex;
-  flex-direction: column;
-  width: 200px;
-  color: #181c25;
-  .pvui-transfer-panel-title {
-    text-align: left;
-    line-height: 1;
-    margin-bottom: 8px;
-  }
-  .pvui-transfer-panel-main {
-    display: flex;
-    height: 260px;
-    border-radius: 3px;
-    border: solid 1px #dddddd;
-    background-color: #ffffff;
-    box-sizing: border-box;
-    .pvui-transfer-panel-header {
-      padding: 10px 8px;
-    }
-    .pvui-transfer-panel-body {
-      flex: 1;
-    }
-  }
-}
-</style>
+# Vue Transfer
+
+> Vue Transfer
+
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+
+# run unit tests
+npm run unit
+
+# run all tests
+npm test
+```
+
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).

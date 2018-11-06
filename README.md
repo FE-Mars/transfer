@@ -1,6 +1,6 @@
-# test-project
+# Vue Transfer
 
-> A Vue.js project
+> Vue Transfer
 
 ## Build Setup
 
