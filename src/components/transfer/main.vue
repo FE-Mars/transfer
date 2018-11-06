@@ -10,22 +10,22 @@
 <script>
 import TransferPanel from "./transfer-panel.vue";
 export default {
-	name: "Transfer",
-	props: {
-		titles: {
-			type: Array,
-			default() {
-				return [];
-			}
-		}
-	},
-	components: {
-		TransferPanel
-	}
+  name: "Transfer",
+  props: {
+    titles: {
+      type: Array,
+      default() {
+        return [];
+      }
+    }
+  },
+  components: {
+    TransferPanel
+  }
 };
 </script>
 <style lang="less" scoped>
 .pvui-transfer {
-	font-size: 40px;
+  font-size: 12px;
 }
 </style>
